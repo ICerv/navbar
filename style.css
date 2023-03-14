@@ -9,13 +9,11 @@ body {
 	font-family: sans-serif;
 }
 
-
 .hlavicka {
 	background-color: #3498db;
 	color: white;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .logo {
@@ -27,16 +25,26 @@ body {
 
 .navbar {
 	display: flex;
+	/* margin: 0;
+	align-items: stretch; */
+}
+
+ul {
+	margin: 0;
+	padding: 0;
 }
 
 li {
 	margin: 1px;
-	padding: 0;
 	list-style-type: none;
+	display: flex;
+	padding: 0;
+
 }
 
 a {
-	display: block;
+	display: flex;
+	align-items: center;
 	padding: 5px 15px;
 	color: white;
 	text-decoration: none;
@@ -46,5 +54,3 @@ a:hover {
 	background-color: white;
 	color: #3498db;
 }
-
-/* ---------------------------------------------------- */
